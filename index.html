@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animalTalk</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <div class="row">
+                <div class="col-xs-6 col-xs-offset-1">
+                    <h1>Animal talk</h1>
+                </div>
+                <div class="col-xs-4 col-xs-offset-1">
+                    <form id="animal-form">
+                       
+                        <input type="text" id="animal-input" required>
+                        
+                        <!-- Button triggers new animal to be added -->
+                        <input id="add-animal" type="submit" value="Add an animal">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="animal-buttons"></div>
+        <div class="animal-pop-up"></div>
+        <div id="gifs-appear-here">
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/js/hw6.js"></script>
+</body>
+
+</html>
