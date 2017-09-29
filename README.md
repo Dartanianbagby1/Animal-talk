@@ -4,7 +4,7 @@ GETTING STARTED:
 
 Please Note: The gifs take about ten seconds to animate on the first attempt. Please do not click more than once, or the gif will go back to a still state and it may seem like nothing is happening.
 
-Please find my page at: 
+Please find my page at:https://dartanianbagby1.github.io/Animal-talk/. 
 
 a. This project was a simple app implemented with HTML, css, and JQuery. the app is an interface where the user can explore      gifs.
 
